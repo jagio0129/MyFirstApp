@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSLog(@"viewDidLoad");
+    
+    CGRect rect = [self.view frame];
+    UILabel* label = [[UILabel alloc] initWithFrame:rect];
+    label.text = @"Hello View World!";
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:label];
 }
 
 

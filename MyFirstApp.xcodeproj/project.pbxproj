@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		F5A4EEBA2281C7D80003EE79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4EEB92281C7D80003EE79 /* AppDelegate.m */; };
 		F5A4EEBD2281C7D80003EE79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4EEBC2281C7D80003EE79 /* ViewController.m */; };
-		F5A4EEC02281C7D80003EE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4EEBE2281C7D80003EE79 /* Main.storyboard */; };
 		F5A4EEC22281C7DD0003EE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A4EEC12281C7DD0003EE79 /* Assets.xcassets */; };
-		F5A4EEC52281C7DD0003EE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4EEC32281C7DD0003EE79 /* LaunchScreen.storyboard */; };
 		F5A4EEC82281C7DD0003EE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4EEC72281C7DD0003EE79 /* main.m */; };
 		F5A4EED22281C7DD0003EE79 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4EED12281C7DD0003EE79 /* MyFirstAppTests.m */; };
 		F5A4EEDD2281C7DD0003EE79 /* MyFirstAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4EEDC2281C7DD0003EE79 /* MyFirstAppUITests.m */; };
@@ -40,9 +38,7 @@
 		F5A4EEB92281C7D80003EE79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5A4EEBB2281C7D80003EE79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F5A4EEBC2281C7D80003EE79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F5A4EEBF2281C7D80003EE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5A4EEC12281C7DD0003EE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F5A4EEC42281C7DD0003EE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5A4EEC62281C7DD0003EE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A4EEC72281C7DD0003EE79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5A4EECD2281C7DD0003EE79 /* MyFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,9 +101,7 @@
 				F5A4EEB92281C7D80003EE79 /* AppDelegate.m */,
 				F5A4EEBB2281C7D80003EE79 /* ViewController.h */,
 				F5A4EEBC2281C7D80003EE79 /* ViewController.m */,
-				F5A4EEBE2281C7D80003EE79 /* Main.storyboard */,
 				F5A4EEC12281C7DD0003EE79 /* Assets.xcassets */,
-				F5A4EEC32281C7DD0003EE79 /* LaunchScreen.storyboard */,
 				F5A4EEC62281C7DD0003EE79 /* Info.plist */,
 				F5A4EEC72281C7DD0003EE79 /* main.m */,
 			);
@@ -235,9 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A4EEC52281C7DD0003EE79 /* LaunchScreen.storyboard in Resources */,
 				F5A4EEC22281C7DD0003EE79 /* Assets.xcassets in Resources */,
-				F5A4EEC02281C7D80003EE79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +290,6 @@
 			targetProxy = F5A4EED92281C7DD0003EE79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F5A4EEBE2281C7D80003EE79 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5A4EEBF2281C7D80003EE79 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F5A4EEC32281C7DD0003EE79 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5A4EEC42281C7DD0003EE79 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F5A4EEDF2281C7DD0003EE79 /* Debug */ = {
