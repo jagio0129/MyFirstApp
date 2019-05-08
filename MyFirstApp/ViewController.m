@@ -37,5 +37,11 @@
     [self.view addSubview:button];
 }
 
+// ボタンを押すと「Hello Button!」とアラートが出る
+- (void)buttonDidPush {
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:nil message:@"Hello Button!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK",nil];
+    [alert show];
+}
+
 
 @end
