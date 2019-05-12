@@ -39,8 +39,20 @@
 
 // ボタンを押すと「Hello Button!」とアラートが出る
 - (void)buttonDidPush {
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:nil message:@"Hello Button!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK",nil];
+    /*
+     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:nil message:@"Hello Button!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK",nil];
     [alert show];
+     */
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"test" message:@"Hello Button!" preferredStyle:UIAlertControllerStyleAlert];
+    
+    // ボタンが押されたときの処理
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK!!!!" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        
+    }]];
+    
+    [self presentViewController:alert animated:YES completion:^{
+    
+    }];
 }
 
 
